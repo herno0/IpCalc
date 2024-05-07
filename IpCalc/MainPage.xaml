@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IpCalc.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                x:Name="text_holder"
+                Text="Calculator Ip" 
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"  
+            />
+            <Entry 
+                x:Name="IP_Input"
+                Placeholder="IP ADDRESS:" 
+            />
+            <Entry
+                x:Name="MASK_Input"
+                Placeholder="MASK: "
+            />
+            <Button 
+                x:Name="CounterBtn"
+                Text="Button"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="IPcalculation"
+                HorizontalOptions="Fill" 
+                />
+            <Label
+                x:Name="IP"
+                Text="IP Address: "
+                />
+            <Label
+                x:Name="BIN_IP"
+                Text="In Binary: "
+                />
+            <Label
+                x:Name="MASK"
+                Text="Mask: "
+                />
+            <Label
+                x:Name="BIN_MASK"
+                Text="In Binary: "
+                />
+            <Label
+                x:Name="SHORT_MASKA"
+                Text="Short MASK: "
+                />
+            <Label
+                x:Name="TYPE"
+                Text="Network Type: "
+                />
+            <Label
+                x:Name="HOSTAMOUNT"
+                Text="Host amount: "
+                />
+            <Label
+                x:Name="AVHOSTAMOUNT"
+                Text="Available Host amount: "
+                />
+            <Label
+                x:Name="NETWORK_ADDRESS"
+                Text="Network address: "
+                />
+            <Label
+                x:Name="BROADCAST_ADRESS"
+                Text="Broadcast address: "
+                />
+            <Label
+                x:Name="SUBNET_AMOUNT"
+                Text="Subnets: "
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
