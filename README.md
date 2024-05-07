@@ -1,1 +1,1 @@
-![image](https://github.com/szynszyl320/IpCalc/assets/163065469/0ecbdc70-7b22-4268-bcd5-f318727ae28b)
+![image](https://github.com/szynszyl320/IpCalc/assets/163065469/dad48803-49c4-4d06-abe4-2d8cade41a7c)
